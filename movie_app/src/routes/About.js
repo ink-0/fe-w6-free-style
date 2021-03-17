@@ -1,7 +1,16 @@
 import React from "react";
+import "./About.css";
+function About(props) {
+    return (
+        <div className="about__container">
+            < span >
+                Freedom is the freedom to day that two plus two make four. If that i
+                granted, all else follows.
+            </span >
+            <span>-George Orwell, 1984</span>
+        </div>
 
-function About(){
-    return <span>About this page: i built it because I love movies</span>;
+    );
 }
 
 export default About;
