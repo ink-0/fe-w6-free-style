@@ -1,13 +1,22 @@
 import React from "react";
 import "./About.css";
+import mypic from "./tami2.png";
+
+
+
+
 function About(props) {
     return (
         <div className="about__container">
+            {/* <img src="./tami.jpg" alt="img"></img> */}
+            <img src={mypic} alt="mypic" />
+            <h1>Hi I am Tami</h1>
             < span >
-                Freedom is the freedom to day that two plus two make four. If that i
-                granted, all else follows.
+                This is my first react page.
+                And so happy
             </span >
-            <span>-George Orwell, 1984</span>
+            <h3>Happy recoding alnight🔥</h3>
+            <span>2021 March</span>
         </div>
 
     );
