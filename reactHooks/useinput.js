@@ -1,5 +1,5 @@
 //조건에 맞는 input 입력만 받기
-const useInput = (initialValue, validator) => {
+export const useInput = (initialValue, validator) => {
     const [value, setValue] = useState(initialValue);
     const onChange = (event) => {
       const {
